@@ -1,0 +1,43 @@
+body {
+  background-color: gainsboro;
+}
+.single-letter {
+  padding-top: 30px;
+  font-size: 400px;
+}
+.three-letter {
+  font-size: 300px;
+  padding-top: 80px;
+}
+.four-letter {
+  font-size: 290px;
+  padding-top: 90px;
+}
+.five-letter {
+  font-size: 250px;
+  padding-top: 110px;
+}
+.space {
+  font-size: 220px;
+  padding-top: 120px;
+}
+.backspace {
+  font-size: 120px;
+  padding-top: 220;
+}
+.key {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(0, 0%, 20%);
+  height: 600px;
+  width: 600px;
+  font-size: 400px;
+  border-radius: 30px;
+  box-shadow: inset -12px -12px black, inset 12px 0px black;
+}
+.key p {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 190px; /* this is keeping the key div in place. I want the div's position to be static. */
+}
